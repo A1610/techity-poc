@@ -1,0 +1,22 @@
+# Environment variables
+.env
+.env/
+venv/
+main2.py
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+venv*/ 
+
+# Test files (optional)
+test.py
+
+# OS files (optional but good)
+.DS_Store
+Thumbs.db
