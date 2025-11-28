@@ -162,7 +162,7 @@ def signin_user(body: SigninBody):
         "refresh_token": refresh_token,
     }
 
-
+#--------------profile----------------------
 @app.post("/profile")
 def update_profile(body: Profile, user=Depends(verify_token)):
     user_id = user["sub"]
